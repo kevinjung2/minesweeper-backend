@@ -16,11 +16,12 @@ This is an API for creating a minesweeper board and providing information on eac
  
  Next get the database ready with:
  
- ``` rails db:migrate ```
-    
-    and 
-    
- ``` rails db:seed ```
+ ``` 
+ 
+  rails db:migrate 
+  rails db:seed
+  
+ ```
  
  Finally start the server on your local machine:
  
