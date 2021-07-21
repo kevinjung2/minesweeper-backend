@@ -1,24 +1,36 @@
-# README
+# Minesweeper API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an API for creating a minesweeper board and providing information on each cell.
 
-Things you may want to cover:
+* Ruby version : 2.7.2
 
-* Ruby version
+## to start a server running this api on your local machine
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ First For and clone this repository to your machine:
+ 
+ ```
+  git clone git@github.com:{YOUR-GITHUBNAME-HERE}/minesweeper-backend.git
+ ```
+ 
+ Next install all dependencies:
+ 
+ ``` 
+  bundle install
+ ```
+ 
+ Next get the database ready with:
+ 
+ ``` 
+  rails db:migrate 
+  rails db:seed
+ ```
+ 
+ Finally start the server on your local machine:
+ 
+ ```
+  rails s
+ ```
+ 
+ If you want to use the frontend I made with this API check out:
+ 
+ https://github.com/kevinjung2/minesweeper-frontend
