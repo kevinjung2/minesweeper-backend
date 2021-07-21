@@ -8,24 +8,28 @@ This is an API for creating a minesweeper board and providing information on eac
 
  First For and clone this repository to your machine:
  
- ``` git clone git@github.com:{YOUR-GITHUBNAME-HERE}/minesweeper-backend.git```
+ ```
+  git clone git@github.com:{YOUR-GITHUBNAME-HERE}/minesweeper-backend.git
+ ```
  
  Next install all dependencies:
  
- ``` bundle install ```
+ ``` 
+  bundle install
+ ```
  
  Next get the database ready with:
  
  ``` 
- 
   rails db:migrate 
   rails db:seed
-  
  ```
  
  Finally start the server on your local machine:
  
- ``` rails s ```
+ ```
+  rails s
+ ```
  
  If you want to use the frontend I made with this API check out:
  
