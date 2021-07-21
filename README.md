@@ -33,4 +33,4 @@ This is an API for creating a minesweeper board and providing information on eac
  
  If you want to use the frontend I made with this API check out:
  
- https://github.com/kevinjung2/minesweeper-backend
+ https://github.com/kevinjung2/minesweeper-frontend
